@@ -1,0 +1,13 @@
+# Created by .ignore support plugin
+
+*/web_tools/node_modules/
+*/web_tools/npm-debug.log
+web_tools/node_modules/
+web_tools/npm-debug.log
+
+.settings
+.project
+.idea
+
+**.DS_Store
+

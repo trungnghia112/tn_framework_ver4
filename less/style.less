@@ -1,0 +1,54 @@
+/*
+TN Framework is the most popular HTML, CSS, and JS framework for projects on the web.
+
+Copyright 2015, trungnghia112
+
+Email:		trungnghia112@gmail.com
+
+Phone:		+84 122 9549491
+
+Facebook:	FB/trungnghia112
+
+Released on: August 8, 2015
+*/
+
+/*
+# Config
+*/
+/*
+## Define
+*/
+body {
+  color: #545454;
+  font-weight: normal;
+  height: 100%;
+}
+
+@import "mixins.less";
+@import "setting.less";
+
+/*
+# Layout
+*/
+
+.tn-wrapper {
+}
+
+.tn-header-full, .tn-main-full, .tn-footer-full {
+  width: 100%;
+  margin: auto;
+}
+
+.tn-header, .tn-main, .tn-footer, .tn-wrapfix {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tn-header:after, .tn-main:after, .tn-footer:after, .tn-wrapfix:after {
+  clear: both;
+  display: table;
+  content: "";
+  visibility: hidden;
+}
+

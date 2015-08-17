@@ -1,0 +1,39 @@
+{
+  "name": "tn_framework",
+  "version": "1.0.0",
+  "description": "tn_framework node_modules",
+  "homepage": "https://github.com/trungnghia112/tn_framework_ver4",
+  "license": "ISC",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trungnghia112/tn_framework_ver4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trungnghia112/tn_framework_ver4/issues",
+    "email": ""
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "glob": "^5.0.9",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-csslint": "^0.4.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-jsdoc": "^0.6.4",
+    "grunt-notify": "^0.4.1",
+    "grunt-githooks": "^0.3.1",
+    "node-path": "^0.0.3"
+  }
+}
